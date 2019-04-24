@@ -1,11 +1,3 @@
-//
-//  Health.swift
-//  ZZ
-//
-//  Created by mac on 13.02.17.
-//  Copyright © 2017 woxapp. All rights reserved.
-//
-
 import UIKit
 import HealthKit
 import CoreMotion
@@ -22,6 +14,8 @@ enum HealthDate : Int {
     case all = 8
     case yesterday = 9
 }
+
+// TOOD: - create singletone instead
 
 class Health: NSObject {
 
